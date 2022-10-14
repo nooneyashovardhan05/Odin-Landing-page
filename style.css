@@ -1,0 +1,148 @@
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+.hero,.footer{
+    background-color: #1f2937;
+    font-weight: extra-bold;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.header-logo{
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-right: auto;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.header, .header-link{
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+.header{
+    justify-content: flex-start;
+}
+.header-link{
+    justify-content: flex-end;
+    margin: auto 0 auto auto;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 200px 200px;
+    gap: 100px;
+}
+.Main-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.text{
+    display: flex;
+    flex: 1;
+}
+.image{
+    background-color: #888787cb;
+    width: 800px;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button,.signup{
+    background-color: #3882f6;
+    border-radius:5px;
+    border: none;
+    color: #f9faf8;
+    padding: 10px 40px;
+    margin:10px 0;
+}
+.information .header{
+    font-size: 38px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+.img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.Img,.information .header{
+    display: flex;
+    justify-content: center;
+}
+.Img{
+    gap: 100px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+}
+.images div{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 1px;
+}
+.information{
+    margin-bottom: 100px;
+}
+.quote{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 540px;
+}
+.quote>*{
+
+}
+.quote .auth{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+.call-to-action{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 100px 200px;
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+.call-head{
+    font-size: 24px;
+    font-weight: 800;
+}
+.call-to-action button{
+    border: 2px solid white;
+    padding: 5px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    padding: 50px 0;
+}
